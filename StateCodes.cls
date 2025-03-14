@@ -215,7 +215,7 @@ public inherited sharing class StateCodes implements Database.Batchable<String>,
         parameters.put('configurenew:j_id1:blockNew:j_id43:addButton', 'Add');
         parameters.put('configurenew:j_id1:blockNew:j_id9:nameSectionItem:editName', stateName);
         parameters.put('configurenew:j_id1:blockNew:j_id9:codeSectionItem:editIsoCode', stateCode);
-        parameters.put('configurenew:j_id1:blockNew:j_id9:intValSectionItem:editIntVal', stateName);
+        parameters.put('configurenew:j_id1:blockNew:j_id9:intValSectionItem:editIntVal', stateCode);
         
         // add viewstate params
         parameters.put('com.salesforce.visualforce.ViewState', viewState);
